@@ -10,6 +10,7 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <!-- custom css file  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,23 +26,175 @@
 
         <nav class="navbar">
             <a href="#home">الصفحة الرئيسية</a>
-            <a href="#about">من انا؟</a>
-            <a href="#pricing">الباقات</a>
+            <a href="#about">مميزات الاشتراك</a>
+            <a href="#features">الباقات</a>
         </nav>
     </header>
 
     <!-- header section ends  -->
 
 
+    <!-- home section starts  -->
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/hero-bg.png) no-repeat;">
+                    <div class="content">
+                        <h3>استعد لتحقيق افضل نسخة من نفسك</h3>
+                        <a href="#" class="btn">اشترك</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/hero-bg1.png) no-repeat;">
+                    <div class="content">
+                        <h3>حقق اهدافك مع توجيه خبير وتدريب شخصي</h3>
+                        <a href="#" class="btn">اشترك</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <!-- home section ends  -->
+
+        <!-- about section starts  -->
+
+        <section class="about" id="about">
+
+            <div class="image">
+                <img src="images/img1.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">مميزات الاشتراك</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <h3><i class="fas fa-check"></i>متابعة اسبوعية</h3>
+                        <p>متابعة اسبوعية وتواصل معي بشكل يومي</p>
+                    </div>
+                    <div class="box">
+                        <h3><i class="fas fa-check"></i>فيديوهات</h3>
+                        <p>فيديوهات شرح بالتفصيل لكل تمرين في برنامجك الخاص</p>
+                    </div>
+                    <div class="box">
+                        <h3><i class="fas fa-check"></i>تحفيز</h3>
+                        <p>تحفيز المشتركين</p>
+                    </div>
+                    <div class="box">
+                        <h3><i class="fas fa-check"></i>التركيز</h3>
+                        <p>عدم اهمال اي مشترك والتركيز على الوصول لاحسن مستوى ممكن</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">المزيد</a>
+            </div>
+
+        </section>
+
+        <!-- about section ends -->
+
+        <!-- features section starts  -->
+
+        <section class="features" id="features">
+
+            <h1 class="heading"> <span>البرامج</span> </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/1stoffer.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>برنامج غذائي + جدول تمارين</h3>
+                        <a href="#" class="btn">اشترك</a>
+                    </div>
+                </div>
+
+                <div class="box second">
+                    <div class="image">
+                        <img src="images/2ndoffer.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>نظام غذائي</h3>
+                        <a href="#" class="btn">اشترك</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/3rdoffer.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>جدول تمارين</h3>
+                        <a href="#" class="btn">اشترك</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- features section ends -->
+
+        <!-- banner section starts  -->
+
+        <section class="banner">
+
+            <span>اشترك معنا الان</span>
+            <h3>خصم 50% على جميع البرامج</h3>
+
+        </section>
+
+        <!-- banner section ends -->
+
+
+
+
+        <!-- footer section starts  -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>معلومات</h3>
+                    <a href="#home" class="links">الصفحة الرئيسية</a>
+                    <a href="#about" class="links">مميزات الاشتراك</a>
+                    <a href="#features" class="links">الباقات</a>
+                </div>
+
+                <div class="box">
+                    <h3>التواصل</h3>
+                    <p> <i class="fas fa-phone"></i> +90 542 812 27 80 </p>
+                    <p> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </p>
+                    <div class="share">
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-tiktok"></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
+
+        <!-- footer section ends -->
 
 
 
 
 
 
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+        <!-- custom js file link  -->
+        <script src="js/script.js"></script>
 
 </body>
 
